@@ -1,6 +1,6 @@
 # cdn-beexy-connector
 
-Off-gallery update channel for the **Beexy Connector** WordPress plugin. This public repo is the store; `updates.beexy.com` fronts it. Clients only pull.
+Off-gallery update channel for the **Beexy Connector** WordPress plugin. This public repo is the store; `updates.beexy.io` fronts it. Clients only pull.
 
 ## What lives here
 
@@ -11,7 +11,7 @@ connector/
   beexy-connector-<version>.zip.sig   its detached Ed25519 signature (base64)
 ```
 
-The plugin polls `https://updates.beexy.com/connector/info.json` (plugin-update-checker v5), downloads the `download_url` it names, and verifies the signature before installing.
+The plugin polls `https://updates.beexy.io/connector/info.json` (plugin-update-checker v5), downloads the `download_url` it names, and verifies the signature before installing.
 
 ## Public-but-signed
 
