@@ -1,0 +1,16 @@
+{
+  "name": "Beexy Connector",
+  "version": "0.2.1",
+  "download_url": "https://updates.beexy.io/connector/beexy-connector-0.2.1.zip",
+  "homepage": "https://beexy.io/connector",
+  "author": "Voxxy Creative Lab",
+  "author_homepage": "https://voxxycreativelab.com",
+  "requires": "5.8",
+  "requires_php": "7.4",
+  "last_updated": "2026-10-11 20:15:43",
+  "upgrade_notice": "First signed release over the beexy.io update channel.",
+  "sections": {
+    "description": "Same-origin reverse proxy that keeps the Beexy first-party cookie set (_bx_*) alive under Safari ITP by rewriting the Set-Cookie Domain on a first-party path.",
+    "changelog": "<h4>0.2.1 &mdash; 2026-10-11</h4><ul><li>First off-gallery signed release: off-gallery auto-update channel (plugin-update-checker v5) backed by the public cdn-beexy-connector repo behind updates.beexy.io.</li><li>Ed25519 package signing, verified at upgrader_pre_download before install (fail-closed; best-effort downgrade guard).</li><li>Corrected the Beexy domain beexy.com to beexy.io (update channel, Plugin URI/homepage, and the License Gate default).</li></ul>"
+  }
+}
